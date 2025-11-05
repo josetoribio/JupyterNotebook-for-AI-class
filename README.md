@@ -47,7 +47,7 @@ sns.lmplot('petal_width', 'petal_length',
            fit_reg=False,
            scatter_kws={"s": 50})
 
-🧩 Step 2 — Train an SVM Classifier
+##🧩 Step 2 — Train an SVM Classifier
 from sklearn import svm
 
 # Select features and labels
@@ -72,7 +72,7 @@ Vector of weights (w) = [-0.7 -1.1]
 b = 3.2799
 Number of support vectors for each class = [1 13 12]
 
-🧮 Step 4 — Plot the Decision Boundary and Margins
+##🧮 Step 4 — Plot the Decision Boundary and Margins
 import numpy as np
 
 # Extract model parameters
@@ -100,7 +100,7 @@ plt.legend()
 plt.title("SVM Decision Boundary for Iris Dataset")
 plt.show()
 
-🔮 Step 5 — Make Predictions
+##🔮 Step 5 — Make Predictions
 print(clf.predict([[3, 3]])[0])
 print(clf.predict([[4, 0]])[0])
 print(clf.predict([[2, 2]])[0])
@@ -128,7 +128,7 @@ The decision boundary clearly divides species classes.
 
 Support vectors define the optimal margin for classification.
 
-💡 Future Improvements
+##💡 Future Improvements
 
 Add model accuracy and confusion matrix evaluation.
 
@@ -138,7 +138,7 @@ Extend visualization to 3D plots using all four Iris features.
 
 Compare SVM with other classifiers (KNN, Decision Tree, Logistic Regression).
 
-📚 References
+#📚 References
 
 Scikit-learn SVM Documentation
 
